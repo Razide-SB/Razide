@@ -1,0 +1,33 @@
+let userName = '1';
+userName === '' ? console.log('Hello!') : console.log('Hello! ' + userName);
+const userQuestion = '';
+console.log(`The User asked: ${userQuestion}`);
+const randomNumber = Math.floor(Math.random() * 8);
+let eightBall = '';
+switch (randomNumber) {
+  case 0:
+    eightBall = 'It is certain, get back to work!';
+    break;
+  case 1:
+    eightBall = 'It is decidedly so, get back to work!';
+    break;
+  case 2:
+    eightBall = 'Reply hazy try again, get back to work!';
+    break;
+  case 3:
+    eightBall = 'Cannot predict now, get back to work!';
+    break;
+  case 4:
+    eightBall = 'Do not count on it, get back to work!';
+    break;
+  case 5:
+    eightBall = 'My sources say no, get back to work';
+    break;
+  case 6:
+    eightBall = 'Outlook not so good, get back to work!';
+    break;
+  case 7:
+    eightBall = 'Signs point to yes, get back to work!';
+    break;
+}
+console.log(eightBall)
